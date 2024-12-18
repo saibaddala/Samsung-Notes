@@ -1,0 +1,10 @@
+1.Making use of serialization in tree prblms
+
+
+2.Bitmasking can be used if we are required to keep track of visited and there are deterministic things to be visited and are <=32
+
+
+3.Most of the sliding window prblms can be solved using prefixsum with hashmap and binary search
+
+
+4.

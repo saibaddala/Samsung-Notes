@@ -1,0 +1,80 @@
+git config --global user.name "sai"
+git config --global user.email "saibaddala172@gmail.com"
+git config --global --list
+
+
+git status
+git log          //To check commits
+//Creating local repository for current local working directory
+git init    //creates default master branch
+git init -b main //creates main branch
+
+//To place a file in staging area
+git add notes.txt              or git add filepath
+git add .       //To place all files
+
+//To commit
+git commit -m "Learning Git"
+
+working directory -> staging area -> commit       [Order to be followed]
+
+//To directly commit without keeping it in staging area
+git commit -a -m "Learning Git"
+
+//To see the changes made if file is in working directory
+git diff
+
+//To see the changes made if file is in staging area
+git diff --staged
+
+//To delete file from git
+git rm --cached notes.txt 
+           note:If you delete file locally in your woring directory it doesnt reflect 
+                in git.so before removing from working directory ,we must delete it 
+                from git then remove from local working directory
+
+
+//To map local repository to remote repository
+git remote add origin url
+
+//To push to remote
+git push -u origin main{branchname}                u means upstream
+
+//To see all different remote repositories that we are pushing to
+git remote -v 
+
+//To see all tags....Tags are very useful
+git tag
+
+//To add tag 
+git tag -a v1.0 -m "Tag added"
+
+//To see tag information
+git show v1.0
+
+//To push tag to remote
+git push origin v1.0
+
+//To Clone
+git clone url
+
+//To create a branch
+git checkout -b branchname
+
+//To view all branches
+git branch
+
+//To change branch
+git switch main
+
+//To create and switch branch
+git switch -c branchname
+
+//To delete a branch
+git switch -d branchname
+
+// To pull a branch into local machine
+git pull origin main
+
+//To merge a branch into main 
+git merge branchname          being on main branch

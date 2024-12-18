@@ -1,0 +1,57 @@
+*max_element(begin(nums),end(nums))
+
+fill(begin(nums),end(nums),val)
+
+copy_n(begin(fromNums1),count,end(toNums2))
+
+accumulate(begin(nums),end(nums),intitialValue)
+
+dp.resize(size,val)
+
+dp.resize(outerSize,vector<int>(innerSize,val)
+
+vec2.assign(vec1.begin(), vec1.end());       //to copy vec1 elements to vec2
+
+stoi() to convert binary to num
+
+converting int to hex using stringstream
+
+lower_bound(begin(nums),end(nums),val)   //gives iterator to first element that is >= val
+
+upper_bound(begin(nums),end(nums),val)   //gives iterator to first element that is > val
+
+when we are using upper_bound or lower_bound on other data types like pairs we need custom comparators for sure..
+upper_bound(begin(nums),end(nums),timestamp,[](const int& t,const pair<int,string>&p){ return t< p.first ;}); //To find first timestamp that is greater than given t
+
+ub-lb  //gives no of vals in nums
+
+nth_element(begin(nums),begin(nums)+k-1,end(nums),lambda_function) //To find kth smallest use < in lambda and to find kth largest use > 
+
+in map,set,multiset we can iterate in both ways begin() and it++ for asc and rbegin() and it-- for desc
+
+in multiset m.erase(val) erases all occurences of val in multiset..instead we can write it=m.find(val) and then m.erase(it) to erase only the first occurrence of val in multiset 
+
+__builtin_popcount(num)   //count no of set bits in num
+
+mask & (1<<i) != 0  //To check if ith bit is set or not
+
+mask | (1<<i)  //To set  ith bit
+
+mask ^ (1<<i)  //To flip  ith bit 
+
+
+-a%b or a%-b or -a%-b    let x%y
+   step1: find S=x/y
+   step2: find A=S*y
+   step3: find x-A   which is answer
+
+
+how to use stringstream
+	stringstream ss(sentence)
+	string str
+	getline(ss,str,',')              now str holds the current string
+
+	
+
+
+

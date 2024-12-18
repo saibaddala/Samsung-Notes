@@ -1,0 +1,15 @@
+tell me about yourself?
+	name btech mtech gaterank codingskill whynoexperience techstackexperience MTP courseprojects
+	
+	
+Hello Sir,
+
+My name is Saikumar Reddy. I completed my B.Tech in Computer Science and Engineering from NIT Mizoram, and I am currently pursuing my M.Tech in Computer Science and Engineering here at IIT Madras.
+
+Regarding my scholastic achievements, I secured an All India Rank of 107 in GATE 2023 (CS). In terms of coding skills, I have solved over 700 problems on leetcode and currently hold a contest rating of 1800. I don’t have any prior work experience, as I enrolled in the M.Tech program immediately after completing my B.Tech.
+
+As for technical skills, I have worked with the Flutter framework, which is used for developing cross-platform applications, and I have completed several projects using it. For my M.Tech Thesis Project (MTP), I am working on creating an embedded Linux platform that functions as an AI-accelerated network interface card for real-time network traffic analysis, utilizing software and hardware co-design on Xilinx SoCs.
+
+The main reason is that while preparing for JEE Main 2019, I worked really hard but wasn’t able to secure a rank that would get me into the top NITs. When I was in my 3rd year of B.Tech, I came across GATE and saw it as my second chance to get into an IIT, something I really aspired to. I worked hard for it and i did it, which has greatly boosted my confidence. Another reason is that IIT offers more opportunities compared to other colleges, and I wanted to explore them to the fullest.
+
+
